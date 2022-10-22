@@ -75,3 +75,6 @@ color:rgb(243,66,95)
    color: white;
 
 }
+.shareTop{
+  display: flex;
+}
