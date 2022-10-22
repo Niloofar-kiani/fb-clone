@@ -1,6 +1,6 @@
-import "./friends.css"
+import "./friends.css";
 
-const Friends = (user) => {
+const Friends = ({user}) => {
   return (
         <li className="rightbarFriend">
           <div className="profileImgContainer">
@@ -9,7 +9,6 @@ const Friends = (user) => {
              alt="avatar"
               className="profileImg"
             />
-            <span className="rightbarFriend"></span>
           </div>
           <span className="rightbarUsername">{user.username}</span>
         </li>
