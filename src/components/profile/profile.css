@@ -1,0 +1,73 @@
+.profile {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.profileTop {
+  margin-bottom: 120px;
+  background-color: rgba(128, 128, 128, 0.377);
+}
+.profileCover {
+  height: 320px;
+  background-image: url("https://timelinecovers.pro/facebook-cover/download/ultra-hd-space-facebook-cover.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.profileHeader {
+  width: 100%;
+  position: absolute;
+  bottom: -120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  background-color: rgba(128, 128, 128, 0.062);
+}
+.profileInfo {
+  display: flex;
+  align-items: center;
+}
+
+.profileUserImg {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profileInfoName {
+  font-size: 28px;
+}
+
+.profileButtons button {
+  font-size: 15px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  margin-right: 10px;
+  background-color: #1b74e4;
+  color: white;
+  border-radius: 5px;
+}
+
+.profileButtons button:last-child {
+  margin-right: 0;
+}
+
+.profileBottom {
+  background-color: rgba(128, 128, 128, 0.062);
+  display: flex;
+  gap: 10px;
+}
+
+.profileFeed {
+  flex: 4;
+}
+
+.profileInfo {
+  flex: 8;
+}
