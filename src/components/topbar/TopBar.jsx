@@ -53,6 +53,11 @@ const TopBar = () => {
             
           </div>
         </div>
+        <img
+         src="assets/person/image0.jpeg"
+         alt="avatar"
+          className="topbarImg"
+        />
       </div>
     </div>
   );
